@@ -1,0 +1,117 @@
+$green  = "\e[92m";
+$red    = "\e[91m";
+$yellow = "\e[93m";
+$blue   = "\e[36m";
+
+clear
+ketik Loading....
+clear
+sleep 0.4 ..
+clear
+echo "    «---------------------------------»"
+echo "     |        TOOLS INSTALLER        |"
+echo "     |           joni ganteng.                 |"
+echo "«-----------------------------------------»"
+echo " | Tips*                                 |"
+echo " |  Untuk Hack Kamera Dan Tools Phising  |"
+echo " |  Menggunakan Ngrok Jadi Sebelum Men-  |"
+echo " |  njalankan Toolsnya,Nyalakan Hostpot  |"
+echo " |  mu Terlebih Dahulu                   |"
+echo "«-----------------------------------------»"
+sleep 0.3
+echo "[1] TOOLS PHISING"
+sleep 0.3
+echo "[2] HACK KAMERA"
+sleep 0.3
+echo "[3] KOMIK DEWASA (FILE PDF)"
+sleep 0.3
+echo "[4] looking for weaknesses of A website/Redhawk"
+sleep 0.3
+echo "[5] Ngrok For Seeker "
+sleep 0.3
+echo "[6] Unfollow Instagram "
+sleep 0.3
+echo "[7] Got Nickname and Family account/light_brigher"
+sleep 0.3
+echo "[8] HACK FACEBOOK "
+sleep 0.11
+sleep 0.12
+echo "[9] exit "
+sleep 0.13
+echo "«-----------------------------------------»"
+sleep 0.14
+read -p "Pilih Yang Mana : " pill;
+
+#Batas gan
+if [ $pill = "1" ]
+then
+clear
+git clone git://github.com/htr-tech/nexphisher.git
+cd nexphisher
+bash tmux_setup
+bash nexphisher
+fi
+#Batas gan
+if [ $pill = "2" ]
+then
+clear
+git clone https://github.com/Anonymous3-SIT/saycheese
+cd saycheese
+bash saycheese.sh
+fi
+#Batas gan
+if [ $pill = "3" ]
+then
+clear
+git clone https://github.com/ariszulwafa/komik
+cd komik
+php komik.php
+fi
+#batas gan
+if [ $pill = "4" ]
+then
+clear
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+php rhawk.php
+fi
+#batas gan
+if [ $pill = "5" ]
+then
+clear
+git clone https://github.com/Ahmedmahmed8a/ngrok/
+cd ngrok
+chmod +x install.sh
+./install.sh
+./ngrok http 8080
+fi
+#Batas gan
+if [ $pill = "6" ]
+then
+git clone git://github.com/htr-tech/unfollow-plus.git
+cd unfollow-plus
+bash unfollower.sh
+fi
+#Batas gan
+if [ $pill = "7" ]
+then
+clear
+git clone https://github.com/zlucifer/light_bringer2
+cd light_bringer2
+bash light.sh
+fi
+#Batas gan
+if [ $pill = "8" ]
+then
+clear
+git clone https://github.com/F713ND5/two-tools
+cd two-tools
+sh ngeryna.sh
+fi
+#Batas gan
+if [ $pill = "9" ]
+then
+figlet Keluar 
+echo
+fi
+
